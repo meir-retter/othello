@@ -1,0 +1,1 @@
+README: This program plays the game Othello against the user, using minimax, alpha-beta, and an evaluation function composed by the author. The program (because of the GUI) currently works specifically for Windows.
