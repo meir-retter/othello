@@ -37,6 +37,7 @@ public class GUI extends JFrame {
                 buttons[i][j] = new JButton(name);
                 final JButton b = buttons[i][j];
                 b.setBackground(Color.green);
+                b.setOpaque(true);
                 b.setEnabled(false);
 
                 b.addActionListener(new ActionListener() {
