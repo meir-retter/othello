@@ -36,6 +36,10 @@ public class GUI extends JFrame {
                 final int second = j;
                 buttons[i][j] = new JButton(name);
                 final JButton b = buttons[i][j];
+                try {
+                    UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
+                }	
+                catch(Exception e) {}
                 b.setBackground(Color.green);
                 b.setOpaque(true);
                 b.setEnabled(false);
